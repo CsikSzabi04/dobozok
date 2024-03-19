@@ -33,7 +33,7 @@
                </image>
             </ImageView>
             <Label maxHeight="1.7976931348623157E308" VBox.vgrow="ALWAYS" />
-            <Button fx:id="btRandom" mnemonicParsing="false" text="Random" />
+            <Button fx:id="btRandom" mnemonicParsing="false" onMouseClicked="#randomClick" text="Random" />
          </children>
       </VBox>
    </children>
